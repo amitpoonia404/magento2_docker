@@ -9,7 +9,7 @@ services:
         networks:
             - main
         volumes:
-            - ./web/code:/var/www/html
+            - ./web/htdocs:/var/www/html
     mysql:
         build: mysql
         environment:
